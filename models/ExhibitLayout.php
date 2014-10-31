@@ -150,6 +150,10 @@ class ExhibitLayout
             'text' => array(
                 'name' => __('Text'),
                 'description' => __('Layout featuring a block of text without files')
+            ),
+            'lightbox-gallery' => array(
+                'name' => __('Lightbox Gallery'),
+                'description' => __('A gallery layout using Lightbox to display all files associated with an item. Also allows for shortcodes.')
             )
         );
 
