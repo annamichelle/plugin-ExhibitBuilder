@@ -26,6 +26,7 @@ function exhibit_builder_install()
 CREATE TABLE IF NOT EXISTS `{$db->prefix}exhibits` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `title` VARCHAR(255) DEFAULT NULL,
+    `subtitle` VARCHAR(255) DEFAULT NULL,
     `description` TEXT,
     `credits` TEXT,
     `featured` TINYINT(1) DEFAULT 0,

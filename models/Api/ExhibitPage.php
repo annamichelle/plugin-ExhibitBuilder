@@ -10,6 +10,7 @@ class Api_ExhibitPage extends Omeka_Record_Api_AbstractRecordAdapter
                 'id' => $record->id,
                 'url' => self::getResourceUrl("/exhibit_pages/{$record->id}"),
                 'title' => $record->title,
+                'subtitle' => $record->subtitle,
                 'slug' => $record->slug,
                 'order' => $record->order
                 );
