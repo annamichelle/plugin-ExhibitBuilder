@@ -20,6 +20,13 @@ class Exhibit extends Omeka_Record_AbstractRecord implements Zend_Acl_Resource_I
     public $title;
 
     /**
+     * Exhibit subtitle.
+     *
+     * @var string
+     */
+    public $subtitle;
+
+    /**
      * Exhibit description (in HTML).
      *
      * @var string
